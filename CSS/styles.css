@@ -1,0 +1,78 @@
+body{
+    background: #724FCE;
+    background: -moz-linear-gradient(-45deg, #724FCE 0%, #5489A4 0%, #9A97BC 100%);
+    background: -webkit-linear-gradient(-45deg, #724FCE 0%, #5489A4 0%, #9A97BC 100%);
+    background: linear-gradient(135deg, #724FCE 0%, #5489A4 0%, #9A97BC 100%);
+}
+
+h1{
+    color: rgb(248, 248, 248);
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+    text-align: center;
+}
+
+ h2 {
+     text-align-last: left;
+    }
+
+.paragraph {
+    text-align: left;
+    }
+
+
+.quote{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.8px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: lowercase;
+    text-align:calc(x(2000px));
+}
+
+#c4{
+    font-size: xx-large;
+    color: #92a5de;
+    text-shadow: 0px 0px 0 #899CD5, 1px 1px 0 #8194CD, 2px 2px 0 #788BC4, 3px 3px 0 #6F82BB, 4px 4px 0 #677AB3, 5px 5px 0 #5E71AA, 6px 6px 0 #5568A1, 7px 7px 0 #4C5F98, 8px 8px 0 #445790, 9px 9px 0 #3B4E87, 10px 10px 0 #32457E, 11px 11px 0 #2A3D76, 12px 12px 0 #21346D, 13px 13px 0 #182B64, 14px 14px 0 #0F225B, 15px 15px 0 #071A53, 16px 16px 0 #02114A, 17px 17px 0 #0B0841, 18px 18px 0 #130039, 19px 19px 0 #1C0930, 20px 20px 0 #251227, 21px 21px 20px rgba(0,0,0,1), 21px 21px 1px rgba(0,0,0,0.5), 0px 0px 20px rgba(0,0,0,.2);
+    color: #92a5de;
+}
+
+.menu{
+    background-color: #D0E4F5;
+    background-image: url("https://imgs.search.brave.com/PFZuAhiG_Jvsa8w_W7Mk-jz8aKkZYz6c8Whfp9RJVkk/rs:fit:480:320:1/g:ce/aHR0cHM6Ly9tZWRp/YS5naXBoeS5jb20v/bWVkaWEvTzBRQ3J5/Tk1BcWlWVy9naXBo/eS5naWY.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: 0 0;
+}
+
+/*used w3 schools: https://www.w3schools.com/howto/howto_css_sticky_element.asp */
+div.stickyMenu {
+    position: sticky;
+    top: 0;
+    padding: 0px;
+}
+
+div.ResumeLink
+{
+    text-align: right;
+    width: 20px;
+}
+
+img{
+  border-radius: 10px;
+  width: 600px; 
+}
+
+#portfollio{
+    image-resolution: 1920px;
+}
+
+div.classWork{
+    width: 100px;
+    border: 1px black;
+    
+}
